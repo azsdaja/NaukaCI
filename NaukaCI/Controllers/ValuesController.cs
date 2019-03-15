@@ -21,7 +21,7 @@ namespace NaukaCI.Controllers
 		[HttpGet("{id}")]
 		public ActionResult<string> Get(int id)
 		{
-			return "value";
+			return (id + 5).ToString();
 		}
 
 		// POST api/values
